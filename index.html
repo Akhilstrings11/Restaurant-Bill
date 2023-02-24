@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+        div
+        {
+            padding: 20px;
+        }
+        input[type="text"]
+        {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 3px;
+        box-sizing: border-box;
+        }
+        button
+        {
+            border-radius: 5px;
+            background-color: mediumpurple;
+            padding: 10px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        h2
+        {
+            text-align: center;
+        }
+        select
+        {
+            padding: 10px;
+            margin: 10px 0px;
+        }
+        .items
+        {
+            height: 30px;
+            border: 2px solid black;
+            colo
+        }
+        body
+        {
+            background-color: #ccc;
+        }
+
+
+    </style>
+</head>
+<body>
+    <u><h1>Restaurant Bill Counter</h1></u>
+    <hr>
+    <form action="">
+        <div>
+            <label for="Customer Name">Customer Name:</label>
+            <input id="Customer Name" class="items" type="text" name="items[]" placeholder="Enter Customer Name">
+            <select name="" id="">
+                <option value="">Select</option>
+                <option value="Option-1">Option-1</option>
+                <option value="Option-2">Option-2</option>
+                <option value="Option-3">Option-3</option>
+                <option value="Option-4">Option-4</option>
+                <option value="Option-5">Option-5</option>
+                <option value="Option-6">Option-6</option>
+                <option value="Option-7">Option-7</option>
+            </select>
+            <input type="text" class="items" name="items[]" placeholder="Price">
+        </div>
+        <div>
+            <label for="Customer Name:">Customer Name:</label>
+            <input type="text" class="items" name="items[]" placeholder="Enter Customer Name">
+            <select name="" id="">
+                <option value="">Select</option>
+                <option value="Option-1">Option-1</option>
+                <option value="Option-2">Option-2</option>
+                <option value="Option-3">Option-3</option>
+                <option value="Option-4">Option-4</option>
+                <option value="Option-5">Option-5</option>
+                <option value="Option-6">Option-6</option>
+                <option value="Option-7">Option-7</option>
+            </select>
+            <input type="text" class="items" name="items[]" placeholder="Price">
+        </div>
+        <div>
+            <label for="Tax Rate">Tax Rate (%):</label>
+            <input type="text" class="items" name="tax rate" placeholder="Tax Rate">
+        </div>
+    </form>
+        <button type="button" onclick="CalculateBill()">Calculate Bill</button>
+        <button type="button" oneclick="Print">Print Bill</button>
+    <hr>
+        
+        <h2>-:Bill Summary:-</h2>
+    
+</body>
+</html>
